@@ -1,0 +1,19 @@
+// Theme
+$ctMain: hsl(279, 100%, 76%);
+$ctMainDark: hsl(246, 100%, 74%);
+$ctMainLight: hsl(321, 100%, 78%);
+$ctSecondary: hsl(51, 100%, 81%);
+$ctDark: hsl(280, 29%, 6%);
+
+// Neutrals
+$cnWhite: hsl(0, 0%, 100%);
+$cnLight: hsl(0, 0%, 85%);
+$cnDark: hsl(0, 0%, 23%);
+$cnBlack: hsl(0, 0%, 0%);
+
+// Components
+$ccShadow: transparentize($cnBlack, 0.75);
+
+// Fonts
+$cfDark: $ctDark;
+$cfLight: $cnWhite;

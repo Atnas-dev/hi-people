@@ -1,0 +1,29 @@
+header, footer, main, nav, section, article, aside { display: block; }
+
+html, body, pre, blockquote, applet, object, iframe,
+p, h1, h2, h3, h4, h5, h6,
+ul, ol, li, dl, dt, dd,
+hr, table, th, td,
+form, legend, fieldset, label, input, textarea, select, button { margin: 0; padding: 0; }
+
+pre { font-family: monospace; }
+fieldset, img { border: none; }
+blockquote, q { quotes: none; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+ol, ul { list-style: none; }
+em, strong, th { font-style: normal; font-weight: normal; }
+legend, a, ins, acronym, abbr, del { text-decoration: none; border: none; color: inherit; outline: none; background: none; }
+abbr { font-variant: normal; border: none; cursor: auto; text-decoration: none; }
+
+hr { height: 1px; border: none; background-color: #000; }
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th, td { text-align: inherit; vertical-align: top; }
+
+textarea { resize: none; vertical-align: text-bottom; }
+button { border: none; background: none;}
+textarea, button { line-height: inherit; }
+input, select, textarea, button { -webkit-appearance: none; font-size: inherit; font-family: inherit; }
+label, select, input, button { cursor: pointer; }
+select, textarea, input, button { outline: none; box-sizing: border-box; }
+select, textarea, input { border-radius: 0; }
