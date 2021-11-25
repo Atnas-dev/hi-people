@@ -1,9 +1,13 @@
-import { FC } from 'react';
+import { FC, useState } from 'react';
+import { ImageGalleryImage } from './components/imageGallery/@ImageGallery';
+import ImageGallery from './components/imageGallery/ImageGallery';
 import InputString from './components/inputString/InputString';
 import Title from './components/title/Title';
 
 
 const App: FC = () => {
+	const [images, setImages] = useState<ImageGalleryImage[]>([]);
+	
 	return (
 		<div>
 			<Title
@@ -15,6 +19,8 @@ const App: FC = () => {
 				name="search"
 				placeholder="Search for an image..."
 			/>
+			
+			<ImageGallery images={images} />
 		</div>
 	);
 };
